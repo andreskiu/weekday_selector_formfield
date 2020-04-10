@@ -1,3 +1,5 @@
+* Added polish translations
+
 ## [1.0.2] - Octubre 23, 2019.
 
 * ChangeLog and homepage updated
