@@ -12,7 +12,7 @@ To use this package, you only need to install/import it to the project and then 
 WeekDaySelectorFormField()
 ```
 
-![default.png](default.png)
+![default.png](weekday_selector_formfield/default.png)
 
 ## Custom Example
 You can set the 'displayDay' attribute to choose the days you want to show. These days will appear in the same order of the array.
@@ -35,7 +35,7 @@ WeekDaySelectorFormField(
     );
 
 ```
-![custom_picker.png](custom_picker.png)
+![custom_picker.png](weekday_selector_formfield/custom_picker.png)
 
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.dev/docs), which offers tutorials, 

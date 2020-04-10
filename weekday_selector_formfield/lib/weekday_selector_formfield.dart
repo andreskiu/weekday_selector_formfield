@@ -138,11 +138,11 @@ class _WeekDaySelectorFormFieldState extends State<WeekDaySelectorFormField> {
       initialValue: widget.initialValue,
       autovalidate: widget.autovalidate,
       onSaved: (days) {
-        print("SELECTOR SAVE: " + daysSelected.toString());
+        // print("SELECTOR SAVE: " + daysSelected.toString());
         if (widget.onSaved != null) widget.onSaved(daysSelected);
       },
       validator: (days) {
-        print("SELECTOR VALIDATOR: " + daysSelected.toString());
+        // print("SELECTOR VALIDATOR: " + daysSelected.toString());
         if (widget.validator != null) return widget.validator(daysSelected);
         return null;
       },
