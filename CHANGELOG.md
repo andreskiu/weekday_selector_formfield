@@ -1,4 +1,4 @@
-## [1.0.2] - Octubre 23, 2019.
+## [1.0.3] - Octubre 23, 2019.
 * [BUG FIX] Fix setting highlight color
 * Added polish translations
 **Thanks [kawa89](https://github.com/kawa89) for Pr's**
