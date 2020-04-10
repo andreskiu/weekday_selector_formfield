@@ -1,8 +1,11 @@
+
 * [BUG FIX] Fix setting highlight color
+* Added polish translations
 
 ## [1.0.2] - Octubre 23, 2019.
 
 * ChangeLog and homepage updated
+
 ## [1.0.1] - Octubre 23, 2019.
 
 **Breaking change** The widget is now on a Wrap container, instead of a Container. So, some params doesn't exists anymore and other have been changed (like crossAxisAlignment, now is WrapCrossAlignment)

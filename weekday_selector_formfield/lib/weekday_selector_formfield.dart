@@ -138,11 +138,11 @@ class _WeekDaySelectorFormFieldState extends State<WeekDaySelectorFormField> {
       initialValue: widget.initialValue,
       autovalidate: widget.autovalidate,
       onSaved: (days) {
-        print("SELECTOR SAVE: " + daysSelected.toString());
+        // print("SELECTOR SAVE: " + daysSelected.toString());
         if (widget.onSaved != null) widget.onSaved(daysSelected);
       },
       validator: (days) {
-        print("SELECTOR VALIDATOR: " + daysSelected.toString());
+        // print("SELECTOR VALIDATOR: " + daysSelected.toString());
         if (widget.validator != null) return widget.validator(daysSelected);
         return null;
       },
@@ -253,13 +253,13 @@ class __DayItemState extends State<_DayItem> {
 }
 
 enum days { monday, tuesday, wednesday, thursday, friday, saturday, sunday }
-enum lang { en, es, pt }
+enum lang { en, es, pt, pl }
 const languages = [
-  {lang.en: 'Monday', lang.es: 'Lunes', lang.pt: 'Segunda'}, // monday
-  {lang.en: 'Tuesday', lang.es: 'Martes', lang.pt: 'Terça'}, // tuesday
-  {lang.en: 'Wednesday ', lang.es: 'Miercoles', lang.pt: 'Quarta'}, // wednesday
-  {lang.en: 'Thursday', lang.es: 'Jueves', lang.pt: 'Quinta'}, // thursday
-  {lang.en: 'Friday', lang.es: 'Viernes', lang.pt: 'Sexta'}, // friday
-  {lang.en: 'Saturday', lang.es: 'Sabado', lang.pt: 'Sabado'}, // thursday
-  {lang.en: 'Sunday', lang.es: 'Domingo', lang.pt: 'Domingo'} // saturday
+  {lang.en: 'Monday', lang.es: 'Lunes', lang.pt: 'Segunda', lang.pl: 'Poniedziałek'}, // Monday
+  {lang.en: 'Tuesday', lang.es: 'Martes', lang.pt: 'Terça', lang.pl: 'Wtorek'}, // Tuesday
+  {lang.en: 'Wednesday ', lang.es: 'Miercoles', lang.pt: 'Quarta', lang.pl: 'Środa'}, // Wednesday
+  {lang.en: 'Thursday', lang.es: 'Jueves', lang.pt: 'Quinta', lang.pl: 'Czwartek'}, // Thursday
+  {lang.en: 'Friday', lang.es: 'Viernes', lang.pt: 'Sexta', lang.pl: 'Piątek'}, // Friday
+  {lang.en: 'Saturday', lang.es: 'Sabado', lang.pt: 'Sabado', lang.pl: 'Sobota'}, // Saturday
+  {lang.en: 'Sunday', lang.es: 'Domingo', lang.pt: 'Domingo', lang.pl: 'Niedziela'} // Sunday
 ];
