@@ -1,3 +1,5 @@
+## [1.0.4] - Octubre 23, 2019.
+Ups, nothing happens
 ## [1.0.3] - Octubre 23, 2019.
 * [BUG FIX] Fix setting highlight color
 * Added polish translations
