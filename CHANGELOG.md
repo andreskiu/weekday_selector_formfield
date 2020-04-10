@@ -1,4 +1,5 @@
 ## [1.0.3] - Octubre 23, 2019.
+**Breaking change**
 * [BUG FIX] Fix setting highlight color
 * Added polish translations
 
@@ -7,7 +8,9 @@
 * Main folder was deleted, so imports should be like 
 
 import 'package:weekday_selector_formfield.dart';
+
 insted of
+
 import 'package:weekday_selector_formfield/weekday_selector_formfield.dart';
 
 ## [1.0.2] - Octubre 23, 2019.
