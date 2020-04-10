@@ -1,3 +1,5 @@
+
+* [BUG FIX] Fix setting highlight color
 * Added polish translations
 
 ## [1.0.2] - Octubre 23, 2019.
