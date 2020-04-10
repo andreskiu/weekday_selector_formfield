@@ -228,7 +228,7 @@ class __DayItemState extends State<_DayItem> {
             });
           },
           focusColor: widget.selectedFillColor,
-          highlightColor: Colors.yellow,
+          highlightColor: widget.highlightColor,
           splashColor: this.widget.splashColor,
           elevation: this.widget.elevation,
           fillColor: selected == true
